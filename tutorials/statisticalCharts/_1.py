@@ -58,7 +58,7 @@ ax0.scatter(np.ones(len(y)), y, marker='_', color='black', alpha=1) # draw plot
 ax0.axis('off') # set axes off
 
 # x-y scatter diagram
-ax1.scatter(x, y, marker='o', s=15, color='black', alpha=1, edgecolor='white')
+ax1.scatter(x, y, marker='o', s=15, color='black', alpha=1, edgecolor='white') #edgecolor overcome overlap problem on data points
 ax1.axis('off') # remove axes
 
 # univariate distribution of x
